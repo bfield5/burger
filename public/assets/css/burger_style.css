@@ -26,11 +26,11 @@ span {
 	float: left;
 }
 
-#burger-list {
+#burgerList {
 	margin-left: 20%;
 }
 
-#burger-list-item {
+#burgerListItem {
 	background: white;
   	padding-left: 5%;
   	padding-top: 1%;
@@ -38,44 +38,42 @@ span {
   	border: 1%;
 }
 
-#burger-submit {
+#burgerSubmit {
 	float: right;
 	vertical-align: top;
 }
 
-#devour-button {
+#devourButton {
 	position: relative;
 	bottom: -14px;
 	margin-left: 4%;
 }
 
-#hamburger-image {
+#hamburgerImage {
 	width: 20%;
 	position: relative;
 	left: 39%;
 }
 
-#new-burger {
+#newBurger {
 	clear: both;
 	margin-left: 24%;
 	width: 55%;
 }
 
-#new-burger-submit {
+#newBurgerSubmit {
 	position: relative;
 	left: 40%;
 	background-color: #4e91fd;
 	color: white;
 }
 
-#new-burger-text {
+#newBurgerText {
 	width: 45%;
 	position: relative;
 	left: 25%;
 }
 
-.available-burger {
-}
 
 .burgers {
 	width:	70%;
@@ -86,12 +84,12 @@ span {
 	margin: 1%;
 }
 
-.create-update-form {
+.createUpdateForm {
   padding: 5px;
   margin: 5px;
 }
 
-.devour-burger {
+.devourBurger {
 	width: 60%;
 	background: white;
 	border-style: ridge;
@@ -101,7 +99,7 @@ span {
   	padding-bottom: 2%;
 }
 
-.form-group {
+.formGroup {
   margin-bottom: 5px;
 }
 
