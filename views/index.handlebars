@@ -1,5 +1,5 @@
 <div class="headerContainer">
-  <img id="hamburgerImage" src="assets/img/burger.png" alt="Burger image.">
+  <img id="hamburgerImage" src="assets/img/download.png" alt="Burger image.">
   <header>Eat-Da-Burger!</header>
 </div>
 
@@ -16,7 +16,9 @@
             <span id="devourButton">
               <form action="/{{this.id}}?_method=PUT" method="POST">
                 <input type="hidden" name="devoured" value="true">
-                <button class="devourButton" type="submit">Devour it!</button>
+                <div class="imgSize">
+                <button class="devourButton" type="submit"><img src="assets/img/burger 5.png" alt="burger">Devour it!</button>
+                </div>
               </form>
             </span>
           </li>
@@ -46,7 +48,7 @@
       <button type="submit" id="newBurgerSubmit">Submit</button>
     </form>
 
-    <p>Enter the burger you want to eat. Click the "Submit" button to eat it.</p>
+    <p>Enter the burger you want to eat. Click the "Submit" button to add it.</p>
 
   </section>
 </div>
