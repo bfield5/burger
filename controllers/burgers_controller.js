@@ -19,7 +19,7 @@ router.get("/", function(req, res) {
 // Post new burger to database and refesh page to see it.
 router.post("/", function(req, res) {
   burger.insertOne([
-    "burger_name", "devoured"
+    'burger_name', 'devoured'
   ], [
     req.body.burger_name, req.body.devoured
   ], function() {
