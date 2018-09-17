@@ -21,7 +21,7 @@ router.post("/", function(req, res) {
   burger.insertOne([
     "burger_name", "devoured"
   ], [
-    req.body.burgerName, req.body.devoured
+    req.body.burger_name, req.body.devoured
   ], function() {
     res.redirect("/");
   });
