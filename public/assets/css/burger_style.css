@@ -46,6 +46,12 @@ span {
 	vertical-align: top;
 }
 
+#devour-button {
+	position: relative;
+	bottom: -14px;
+	margin-left: 4%;
+}
+
 .devourButton {
 	
 	margin-left: 4%;
